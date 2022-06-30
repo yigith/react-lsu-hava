@@ -1,0 +1,38 @@
+.HavaDurumu-sonuc {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 1rem;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  color: #aaa;
+  border-radius: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.HavaDurumu-sonuc > img:nth-child(1) {
+  width: 40%;
+  align-self: flex-end;
+}
+
+.HavaDurumu-sonuc > div:nth-child(2) {
+  margin-left: 2rem;
+  font-size: 5rem;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.HavaDurumu-sonuc > div:nth-child(3) {
+  margin-left: 2rem;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.HavaDurumu-sonuc > div:nth-child(4) {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  opacity: .6;
+  font-weight: 300;
+  text-transform: capitalize;
+}
