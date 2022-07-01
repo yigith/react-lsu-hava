@@ -1,7 +1,7 @@
 function SayiKutusu(props) {
 
   function handleChange(event) {
-    props.degistiginde(props.indeks, Number(event.target.value));
+    props.degistiginde(props.indeks, event.target.value);
   }
 
   return (

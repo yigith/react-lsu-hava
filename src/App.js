@@ -24,6 +24,8 @@ function App() {
     setSayilar(yeniSayilar);
   };
 
+  const sayilarFiltered = sayilar.filter(x => x != "");
+
   return (
     <div className="App">
       <HavaDurumu />
@@ -38,7 +40,7 @@ function App() {
       </Kutu>
       <Kutu>
         {sayilar.length && <div>
-          {sayilar.join(" + ")} = {sayilar.reduce((sum, x) => sum + x)}
+          {sayilarFiltered.join(" + ")} = {sayilarFiltered.reduce((sum, x) => sum + Number(x), 0)}
         </div>}
       </Kutu>
     </div>
